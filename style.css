@@ -21,7 +21,7 @@ main{
 }
 .head-menu{
     color: rgb(75, 71, 71);
-    padding-top: 50px;
+    padding-top: 100px;
     margin-left: 100px;
    
 }
@@ -37,7 +37,6 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-left: 100px;
-
 }
 .start-heading{
     display: flex;
@@ -46,7 +45,7 @@ main{
     align-items: flex-start;
 }
 .img-width img{
-    width: 70%;
+    width: 100%;
 }
 .button{
     color: white;
@@ -128,14 +127,12 @@ main{
 /* card introducion end */
 
 /* footer start */
-.footer{
-    padding-top: 30px;
-}
+
 .copyright{
     color: oldlace;
     text-align: center;
     background-color: rgb(19, 16, 16);
-    padding: 30px;
+    padding-left: 30px;
     
 }
 .copyright p{
@@ -162,7 +159,7 @@ main{
         grid-template-columns: 1fr 1fr;
     }
 }
-@media only screen and (max-width:700) {
+@media only screen and (max-width:600px) {
     .container{
         width: 100%;
     }
