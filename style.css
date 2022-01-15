@@ -152,7 +152,7 @@ main{
         width: 100%;
     }
     .parent{
-        background-color: brown;
+        background-color: rgb(204, 182, 182);
         grid-template-columns: repeat(1, 1fr);
     }
     .container-main-card{
@@ -167,5 +167,7 @@ main{
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         font-size: 40px;
+        background-color: rgb(217, 224, 217);
+        padding: 0 auto;
     }
 }
