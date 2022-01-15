@@ -1,0 +1,142 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+/* start heading and images style */
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container{
+    background-color: rgb(253, 249, 249);
+    width: 1100px;
+   
+}
+.head-menu{
+    color: rgb(75, 71, 71);
+    padding-top: 50px;
+    margin-left: 100px;
+   
+}
+.container{
+    max-width: 1200px;
+}
+.title-head{
+    color: rgb(75, 71, 71);
+    font-size: 40px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 100px;
+
+}
+.start-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.img-width img{
+    width: 70%;
+}
+.button{
+    color: white;
+    background-color: rgb(236, 35, 102);
+    padding: 8px;
+    width: 30%;
+    border-radius: 15px;
+    border: none;
+}
+/* end heading and images style */
+
+/* card introducion start */
+.container-main{
+    padding-top: 50px;
+}
+.main-title{
+    text-align: center;
+    color: rgb(75, 71, 71);
+    padding-bottom: 50px;
+}
+.container-main-card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 30px;
+    padding-left: 80px;
+    padding-right: 60px;
+    grid-column-gap:30px ;
+}
+.card-introduction{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px grey;
+}
+.img-style{
+    width: 100%;
+}
+.card-body-info{
+    padding-top: 10px;
+}
+.icon-style{
+    color: rgb(218, 75, 23);
+}
+.title-name{
+    color: rgb(75, 71, 71);
+}
+.clock{
+    padding-left: 5px;
+}
+.title-info{
+    color: rgb(75, 71, 71);
+}
+.btn-style{
+    color: brown;
+    border: none;
+    background-color: coral;
+    width: 100px;
+     
+}
+#button{
+    
+    
+}
+/* card introducion end */
+
+/* footer start */
+.copyright{
+    color: oldlace;
+    text-align: center;
+    background-color: rgb(19, 16, 16);
+    padding: 30px;
+}
+.copyright p{
+   font-size: 20px;
+}
+.icon{
+    padding-left: 10px;
+    color: whitesmoke;
+}
+/* footer end */
+
+/* media queries */
+
+/* mobile device */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .parent{
+        background-color: brown;
+        grid-template-columns: repeat(1.1fr);
+    }
+}
